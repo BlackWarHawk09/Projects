@@ -1,0 +1,19 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\algorithm(3973): error C2678: бинарный "-": не найден оператор, принимающий левый операнд типа "const List<int>::iterator" (или приемлемое преобразование отсутствует)
+  d:\projects\cpp\l4_c++\l4_c++\main.cpp(50): note: может быть "int List<int>::iterator::operator -(const List<int>::iterator &)"
+  d:\projects\cpp\l4_c++\l4_c++\main.cpp(38): note: или       "List<int>::iterator List<int>::iterator::operator -(int)"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\algorithm(3973): note: при попытке сопоставить список аргументов "(const List<int>::iterator, const List<int>::iterator)"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\algorithm(3979): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)"
+          with
+          [
+              _RanIt=List<int>::iterator,
+              _Pr=std::less<void>
+          ]
+  d:\projects\cpp\l4_c++\l4_c++\main.cpp(205): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<List<int>::iterator>(const _RanIt,const _RanIt)"
+          with
+          [
+              _RanIt=List<int>::iterator
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\algorithm(3973): error C2672: "_Sort_unchecked": не найдена соответствующая перегруженная функция
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\algorithm(3973): error C2780: void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr): требует аргументов: 4, имеется: 3
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\algorithm(3934): note:  см. объявление "std::_Sort_unchecked"

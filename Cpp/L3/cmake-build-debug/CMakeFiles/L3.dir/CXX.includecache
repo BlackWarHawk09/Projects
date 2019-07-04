@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/Cpp/L3/list.cpp
+list.h
+D:/Projects/Cpp/L3/list.h
+
+D:/Projects/Cpp/L3/list.h
+list.cpp
+D:/Projects/Cpp/L3/list.cpp
+
+D:/Projects/Cpp/L3/main.cpp
+cmath
+-
+cstdlib
+-
+exception
+-
+iostream
+-
+time.h
+-
+vector
+-
+list.h
+D:/Projects/Cpp/L3/list.h
+

@@ -1,0 +1,3 @@
+﻿  main.cpp
+d:\projects\cpp\l3_c++\l3_c++\main.cpp(64): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  L3_C++.vcxproj -> D:\Projects\Cpp\L3_C++\Debug\L3_C++.exe
